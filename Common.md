@@ -1,5 +1,6 @@
 The first part of test.
-Questions:
+
+## Questions:
 
 Question: Explain a scenario where useReducer is more advantageous than useState.
 Options:
@@ -20,3 +21,7 @@ D) Server-side rendering does not allow for dynamic content.
 
 Answer: A (Static Generation serves the same HTML to all users, while Server-Side Rendering can customize the HTML for each request)
 
+The second part of test.
+
+## Please identify, describe, and fix the issue in the following code:
+Link on solution  - [click]('/example)
