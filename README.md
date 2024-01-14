@@ -84,3 +84,15 @@ Verify that the state is being updated correctly using the appropriate state-set
 Use console logs or use breakpoints in the component to track the flow of state changes and render.
 In functional components, review the dependency array in the useEffect hook to ensure it includes all relevant dependencies.
 Refer to community forums, like Stack Overflow, to see if others have faced similar issues and if there are recommended solutions.
+
+## The fifth part of the test
+
+Questions:
+
+First : I will inform my lead, as well as suggest ways to solve this problem.
+
+Second:
+I can't give a correct answer because I don't have relevant experiences. therefore, I will answer as I think.
+It would depend on many factors.
+First of all, what the customer is willing to put up with, the deadline or the money that is important to him.Secondly, I would assess the situation in the team, even the best team will make mistakes if it is exhausted.
+Third, in any case, such decisions will not be made alone, the approval of other members of the company is also required.
