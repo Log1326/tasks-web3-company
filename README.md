@@ -24,7 +24,7 @@ Answer: A (Static Generation serves the same HTML to all users, while Server-Sid
 
 Please identify, describe, and fix the issue in the following code:
 
-Link on solution - [click](example)
+Link on solution - [click](components/example)
 
 ## The third part of test
 
