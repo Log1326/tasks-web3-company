@@ -18,10 +18,24 @@ B) There is no difference.
 C) Static Generation is faster but less secure.
 D) Server-side rendering does not allow for dynamic content.
 
-
 Answer: A (Static Generation serves the same HTML to all users, while Server-Side Rendering can customize the HTML for each request)
 
 The second part of test.
 
 ## Please identify, describe, and fix the issue in the following code:
-Link on solution  - [click](example)
+
+Link on solution - [click](example)
+
+The third part of test
+
+## Interactive Coding Task.
+
+Link on solution - [click](components/LiveSearch/)
+
+First, uncomment one of the component in the app folder and page.tsx then you can run the command
+I decide to write very simple tests
+
+install dependency - npm install
+start project - npm run:dev
+test covered - npm run jest:cover
+test start - npm run jest
