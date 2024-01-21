@@ -15,7 +15,7 @@ const Pagination: React.FC<PaginationProps> = ({
     <div aria-label='Page navigation example' data-testid='pagination-test-id'>
       <div className='inline-flex -space-x-px text-sm'>
         <button
-        disabled={currentPage == 1}
+          disabled={currentPage == 1}
           onClick={click('d')}
           className={` cursor-pointer flex items-center justify-center px-3 h-8 ms-0 leading-tight text-gray-500
          bg-white border border-e-0 border-gray-300 rounded-s-lg hover:bg-gray-100

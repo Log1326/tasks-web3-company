@@ -52,9 +52,8 @@ export const LiveSearchDebounce = () => {
   }, [debouncedData, page, selectedSort]);
 
   //change our input
-  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) => {
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
     setSearchTerm(event.target.value);
-  };
 
   // infinite scrolling for the results.
   useObserver({

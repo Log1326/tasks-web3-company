@@ -1,6 +1,6 @@
 ## The first part of test.
 
-Questions:
+# Questions:
 
 Question: Explain a scenario where useReducer is more advantageous than useState.
 Options:
@@ -9,7 +9,7 @@ B) When the next state depends on the previous one.
 C) When managing state logic that involves multiple sub-values or when the next state depends on complex calculations.
 D) All state management should be done with useReducer.
 
-Answer: C (When managing state logic that involves multiple sub-values or when the next state depends on complex calculations)
+- Answer: C (When managing state logic that involves multiple sub-values or when the next state depends on complex calculations)
 
 Question: What is the main difference between Static Generation and Server-Side Rendering in Next.js?
 Options:
@@ -34,51 +34,70 @@ Link on solution - [click](components/LiveSearch/)
 
 First, uncomment one of the component in the app folder and page.tsx then you can run the command
 I decide to write very simple tests
+install dependency:
 
-install dependency - npm install
-start project - npm run:dev
-test covered - npm run jest:cover
-test start - npm run jest
+```bash
+ npm install
+```
+
+start project:
+
+```bash
+  npm run:dev
+```
+
+test covered:
+
+```bash
+  npm run jest:cover
+```
+
+test start:
+
+```bash
+ npm run jest
+```
 
 ## The fourth part of the test
 
-Question:
-First:
+# Question:
 
-1)Modular Components:
-Break down the application into modular components, such as product listings, cart, and checkout, to facilitate easier maintenance and updates.
-Leverage React components and organize them based on features and functionality.
+- First:
 
-2)Pages and Routing:
-Use Next.js's pages directory for each section of the e-commerce site.
-Implement efficient routing to ensure a smooth user experience.
+  1)Modular Components:
+  Break down the application into modular components, such as product listings, cart, and checkout, to facilitate easier maintenance and updates.
+  Leverage React components and organize them based on features and functionality.
 
-3)API Routes:
-Utilize Next.js API routes for server-side logic, especially for handling transactions and managing user data securely.
+  2)Pages and Routing:
+  Use Next.js's pages directory for each section of the e-commerce site.
+  Implement efficient routing to ensure a smooth user experience.
 
-4)Data Fetching:
-Implement efficient data fetching mechanisms, considering factors like caching and server-side rendering (SSR) to enhance performance.
-Leverage Next.js's data fetching methods for optimized data retrieval.
+  3)API Routes:
+  Utilize Next.js API routes for server-side logic, especially for handling transactions and managing user data securely.
 
-5)State Management:
-Choose a state management solution like Redux or React Context API to manage global states across the application.
-Ensure a centralized and predictable state management approach.
+  4)Data Fetching:
+  Implement efficient data fetching mechanisms, considering factors like caching and server-side rendering (SSR) to enhance performance.
+  Leverage Next.js's data fetching methods for optimized data retrieval.
 
-6)Scalability:
-Design the architecture to scale horizontally by deploying components independently.
-Consider microservices architecture for scalability, enabling individual services to evolve independently.
+  5)State Management:
+  Choose a state management solution like Redux or React Context API to manage global states across the application.
+  Ensure a centralized and predictable state management approach.
 
-7)Performance Optimization:
-Implement lazy loading for images and components to enhance initial page load times.
-Optimize images and assets to reduce bandwidth usage.
+  6)Scalability:
+  Design the architecture to scale horizontally by deploying components independently.
+  Consider microservices architecture for scalability, enabling individual services to evolve independently.
 
-8)Code Splitting:
-Leverage Next.js's automatic code splitting to load only the necessary code for a particular page, improving load times.
+  7)Performance Optimization:
+  Implement lazy loading for images and components to enhance initial page load times.
+  Optimize images and assets to reduce bandwidth usage.
 
-9)Testing:
-Implement a robust testing strategy, including unit tests and end-to-end tests, to maintain code quality and catch potential issues early.
+  8)Code Splitting:
+  Leverage Next.js's automatic code splitting to load only the necessary code for a particular page, improving load times.
 
-Second:
+  9)Testing:
+  Implement a robust testing strategy, including unit tests and end-to-end tests, to maintain code quality and catch potential issues early.
+
+- Second:
 
 Verify that the state is being updated correctly using the appropriate state-setting function
 Use console logs or use breakpoints in the component to track the flow of state changes and render.
@@ -87,12 +106,12 @@ Refer to community forums, like Stack Overflow, to see if others have faced simi
 
 ## The fifth part of the test
 
-Questions:
+# Questions:
 
-First : I will inform my lead, as well as suggest ways to solve this problem.
+- First : I will inform my lead, as well as suggest ways to solve this problem.
 
-Second:
-I can't give a correct answer because I don't have relevant experiences. therefore, I will answer as I think.
-It would depend on many factors.
-First of all, what the customer is willing to put up with, the deadline or the money that is important to him.Secondly, I would assess the situation in the team, even the best team will make mistakes if it is exhausted.
-Third, in any case, such decisions will not be made alone, the approval of other members of the company is also required.
+- Second:
+  I can't give a correct answer because I don't have relevant experiences. therefore, I will answer as I think.
+  It would depend on many factors.
+  First of all, what the customer is willing to put up with, the deadline or the money that is important to him.Secondly, I would assess the situation in the team, even the best team will make mistakes if it is exhausted.
+  Third, in any case, such decisions will not be made alone, the approval of other members of the company is also required.

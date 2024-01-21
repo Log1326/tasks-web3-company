@@ -20,6 +20,7 @@ return result;
 }
 
 return (
+
 <div>
 {data.map((item: any) => (
 <div key={item.id}>{item.name}</div>
@@ -49,10 +50,11 @@ fetchData();
 }, []); // Empty dependency array to run the effect only once
 
 return (
-<div>
-{data.map((item: any) => (
-<div key={item.id}>{item.name}</div>
-))}
-</div>
-)
-}
+
+    <div>
+        {data.map((item: any) => (
+            <div key={item.id}>{item.name}</div>
+    ))}
+    </div>
+        )
+    }
